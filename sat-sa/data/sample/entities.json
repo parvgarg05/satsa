@@ -1,0 +1,102 @@
+[
+  {
+    "entity_id": "CSE-001",
+    "entity_name": "Apex State Bank of India",
+    "sector": "Banking"
+  },
+  {
+    "entity_id": "CSE-002",
+    "entity_name": "National Thermal Energy Grid",
+    "sector": "Energy"
+  },
+  {
+    "entity_id": "CSE-003",
+    "entity_name": "Central Defence Logistics Hub",
+    "sector": "Defence"
+  },
+  {
+    "entity_id": "CSE-004",
+    "entity_name": "Bharat Telecom Backbone",
+    "sector": "Telecom"
+  },
+  {
+    "entity_id": "CSE-005",
+    "entity_name": "Northern Railways Signalling Corp",
+    "sector": "Transport"
+  },
+  {
+    "entity_id": "CSE-006",
+    "entity_name": "Metro Healthcare Infrastructure",
+    "sector": "Healthcare"
+  },
+  {
+    "entity_id": "CSE-007",
+    "entity_name": "National Power Transmission Sub-tier A",
+    "sector": "Energy"
+  },
+  {
+    "entity_id": "CSE-008",
+    "entity_name": "Union Financial Clearing House",
+    "sector": "Banking"
+  },
+  {
+    "entity_id": "CSE-009",
+    "entity_name": "Naval Weapons Research Lab",
+    "sector": "Defence"
+  },
+  {
+    "entity_id": "CSE-010",
+    "entity_name": "Coastal Gas Pipelines Ltd",
+    "sector": "Energy"
+  },
+  {
+    "entity_id": "CSE-011",
+    "entity_name": "Unified Payments Network",
+    "sector": "Banking"
+  },
+  {
+    "entity_id": "CSE-012",
+    "entity_name": "Strategic Satellite Ground Station",
+    "sector": "Defence"
+  },
+  {
+    "entity_id": "CSE-013",
+    "entity_name": "National Fiber Optic Core",
+    "sector": "Telecom"
+  },
+  {
+    "entity_id": "CSE-014",
+    "entity_name": "Air Traffic Control Western Region",
+    "sector": "Transport"
+  },
+  {
+    "entity_id": "CSE-015",
+    "entity_name": "Central Biomedical Registry",
+    "sector": "Healthcare"
+  },
+  {
+    "entity_id": "CSE-016",
+    "entity_name": "Hydroelectric Dam Automated Systems",
+    "sector": "Energy"
+  },
+  {
+    "entity_id": "CSE-017",
+    "entity_name": "Securities Exchange Depository",
+    "sector": "Banking"
+  },
+  {
+    "entity_id": "CSE-018",
+    "entity_name": "Tactical Radio Command",
+    "sector": "Defence"
+  },
+  {
+    "entity_id": "CSE-019",
+    "entity_name": "Deepwater Port Terminal Controls",
+    "sector": "Transport"
+  },
+  {
+    "entity_id": "CSE-020",
+    "entity_name": "Epidemic Surveillance Network",
+    "sector": "Healthcare"
+  }
+]

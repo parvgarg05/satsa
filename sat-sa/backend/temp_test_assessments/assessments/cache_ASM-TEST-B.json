@@ -1,0 +1,1641 @@
+{
+  "run_timestamp": "2026-09-28T22:02:15.156135+00:00",
+  "analysis_timestamp": "2026-09-28T22:02:15.156135+00:00",
+  "db_path": "C:\\Users\\Parv Garg\\Desktop\\PS0157\\sat-sa\\backend\\temp_test_assessments\\assessments\\ASM-TEST-B.db",
+  "elapsed_seconds": 0.37,
+  "total_findings": 4,
+  "findings_generated": 4,
+  "entities_analyzed": 4,
+  "high_risk_entities": 0,
+  "critical_entities": 0,
+  "dataset_version": "v4.1.1.1",
+  "module_counts": {
+    "EXECUTION_GAP": 0,
+    "NEGATIVE_SPACE": 3,
+    "ANOMALY": 1,
+    "PEER_DEVIATION": 0,
+    "REPEATED_INCIDENT": 0
+  },
+  "findings_by_entity": {
+    "ENT-B2": [
+      {
+        "finding_id": "NS-LOWACT-ENT-B2",
+        "entity_id": "ENT-B2",
+        "finding_type": "NEGATIVE_SPACE",
+        "severity": "MEDIUM",
+        "title": "Unexpectedly Low Alert Activity",
+        "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+        "evidence_ids": [],
+        "supporting_metrics": {
+          "affected_entity": "ENT-B2",
+          "affected_assets": [],
+          "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+          "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+          "explanation": "Significant deficit in security signal density compared to sector peers.",
+          "entity_alert_count": 0,
+          "peer_mean_alert_count": 1,
+          "activity_ratio_vs_peer": 0,
+          "threshold_fraction": 0.25
+        }
+      }
+    ],
+    "ENT-B3": [
+      {
+        "finding_id": "NS-LOWACT-ENT-B3",
+        "entity_id": "ENT-B3",
+        "finding_type": "NEGATIVE_SPACE",
+        "severity": "MEDIUM",
+        "title": "Unexpectedly Low Alert Activity",
+        "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+        "evidence_ids": [],
+        "supporting_metrics": {
+          "affected_entity": "ENT-B3",
+          "affected_assets": [],
+          "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+          "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+          "explanation": "Significant deficit in security signal density compared to sector peers.",
+          "entity_alert_count": 0,
+          "peer_mean_alert_count": 1,
+          "activity_ratio_vs_peer": 0,
+          "threshold_fraction": 0.25
+        }
+      }
+    ],
+    "ENT-B4": [
+      {
+        "finding_id": "NS-LOWACT-ENT-B4",
+        "entity_id": "ENT-B4",
+        "finding_type": "NEGATIVE_SPACE",
+        "severity": "MEDIUM",
+        "title": "Unexpectedly Low Alert Activity",
+        "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+        "evidence_ids": [],
+        "supporting_metrics": {
+          "affected_entity": "ENT-B4",
+          "affected_assets": [],
+          "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+          "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+          "explanation": "Significant deficit in security signal density compared to sector peers.",
+          "entity_alert_count": 0,
+          "peer_mean_alert_count": 1,
+          "activity_ratio_vs_peer": 0,
+          "threshold_fraction": 0.25
+        }
+      }
+    ],
+    "ENT-B1": [
+      {
+        "finding_id": "ANOM-ENT-B1",
+        "entity_id": "ENT-B1",
+        "finding_type": "ANOMALY",
+        "severity": "HIGH",
+        "title": "Statistical Anomaly Detected via Isolation Forest",
+        "rationale": "Entity classified as anomalous by Isolation Forest (normalised score: 1.000). Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%). This entity exhibits systemic behavioural departure from peer norms.",
+        "evidence_ids": [
+          "ALT-B1",
+          "CAS-B1",
+          "AST-B1"
+        ],
+        "supporting_metrics": {
+          "anomaly_score_normalised": 1,
+          "anomaly_score_raw": -0.687744,
+          "anomaly_classification": "ANOMALY",
+          "model_version_id": "IForest-v1.0-7b919d0fc469",
+          "feature_values": {
+            "alert_volume": 1,
+            "critical_alert_ratio": 1,
+            "median_closure_time": 15,
+            "escalation_rate": 0,
+            "repeat_alert_rate": 0,
+            "telemetry_coverage": 1,
+            "average_investigation_duration": 15
+          },
+          "peer_means": {
+            "alert_volume": 0.25,
+            "critical_alert_ratio": 0.25,
+            "median_closure_time": 3.75,
+            "escalation_rate": 0,
+            "repeat_alert_rate": 0,
+            "telemetry_coverage": 0.25,
+            "average_investigation_duration": 3.75
+          },
+          "feature_deviations": {
+            "alert_volume": 1,
+            "critical_alert_ratio": 1,
+            "median_closure_time": 15,
+            "escalation_rate": 0,
+            "repeat_alert_rate": 0,
+            "telemetry_coverage": 1,
+            "average_investigation_duration": 15
+          },
+          "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%)",
+          "feature_attributions": [
+            {
+              "feature": "telemetry_coverage",
+              "value": 1,
+              "attribution": 0.26,
+              "rank": 1
+            },
+            {
+              "feature": "critical_alert_ratio",
+              "value": 1,
+              "attribution": 0.2067,
+              "rank": 2
+            },
+            {
+              "feature": "median_closure_time",
+              "value": 15,
+              "attribution": 0.1867,
+              "rank": 3
+            }
+          ],
+          "attribution_method": "isolation_forest_tree_path_attribution",
+          "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+          "model_parameters": {
+            "algorithm": "IsolationForest",
+            "n_estimators": 150,
+            "contamination": 0.15,
+            "random_state": 42
+          }
+        }
+      }
+    ]
+  },
+  "findings_by_type": {
+    "NEGATIVE_SPACE": [
+      {
+        "finding_id": "NS-LOWACT-ENT-B2",
+        "entity_id": "ENT-B2",
+        "finding_type": "NEGATIVE_SPACE",
+        "severity": "MEDIUM",
+        "title": "Unexpectedly Low Alert Activity",
+        "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+        "evidence_ids": [],
+        "supporting_metrics": {
+          "affected_entity": "ENT-B2",
+          "affected_assets": [],
+          "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+          "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+          "explanation": "Significant deficit in security signal density compared to sector peers.",
+          "entity_alert_count": 0,
+          "peer_mean_alert_count": 1,
+          "activity_ratio_vs_peer": 0,
+          "threshold_fraction": 0.25
+        }
+      },
+      {
+        "finding_id": "NS-LOWACT-ENT-B3",
+        "entity_id": "ENT-B3",
+        "finding_type": "NEGATIVE_SPACE",
+        "severity": "MEDIUM",
+        "title": "Unexpectedly Low Alert Activity",
+        "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+        "evidence_ids": [],
+        "supporting_metrics": {
+          "affected_entity": "ENT-B3",
+          "affected_assets": [],
+          "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+          "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+          "explanation": "Significant deficit in security signal density compared to sector peers.",
+          "entity_alert_count": 0,
+          "peer_mean_alert_count": 1,
+          "activity_ratio_vs_peer": 0,
+          "threshold_fraction": 0.25
+        }
+      },
+      {
+        "finding_id": "NS-LOWACT-ENT-B4",
+        "entity_id": "ENT-B4",
+        "finding_type": "NEGATIVE_SPACE",
+        "severity": "MEDIUM",
+        "title": "Unexpectedly Low Alert Activity",
+        "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+        "evidence_ids": [],
+        "supporting_metrics": {
+          "affected_entity": "ENT-B4",
+          "affected_assets": [],
+          "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+          "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+          "explanation": "Significant deficit in security signal density compared to sector peers.",
+          "entity_alert_count": 0,
+          "peer_mean_alert_count": 1,
+          "activity_ratio_vs_peer": 0,
+          "threshold_fraction": 0.25
+        }
+      }
+    ],
+    "ANOMALY": [
+      {
+        "finding_id": "ANOM-ENT-B1",
+        "entity_id": "ENT-B1",
+        "finding_type": "ANOMALY",
+        "severity": "HIGH",
+        "title": "Statistical Anomaly Detected via Isolation Forest",
+        "rationale": "Entity classified as anomalous by Isolation Forest (normalised score: 1.000). Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%). This entity exhibits systemic behavioural departure from peer norms.",
+        "evidence_ids": [
+          "ALT-B1",
+          "CAS-B1",
+          "AST-B1"
+        ],
+        "supporting_metrics": {
+          "anomaly_score_normalised": 1,
+          "anomaly_score_raw": -0.687744,
+          "anomaly_classification": "ANOMALY",
+          "model_version_id": "IForest-v1.0-7b919d0fc469",
+          "feature_values": {
+            "alert_volume": 1,
+            "critical_alert_ratio": 1,
+            "median_closure_time": 15,
+            "escalation_rate": 0,
+            "repeat_alert_rate": 0,
+            "telemetry_coverage": 1,
+            "average_investigation_duration": 15
+          },
+          "peer_means": {
+            "alert_volume": 0.25,
+            "critical_alert_ratio": 0.25,
+            "median_closure_time": 3.75,
+            "escalation_rate": 0,
+            "repeat_alert_rate": 0,
+            "telemetry_coverage": 0.25,
+            "average_investigation_duration": 3.75
+          },
+          "feature_deviations": {
+            "alert_volume": 1,
+            "critical_alert_ratio": 1,
+            "median_closure_time": 15,
+            "escalation_rate": 0,
+            "repeat_alert_rate": 0,
+            "telemetry_coverage": 1,
+            "average_investigation_duration": 15
+          },
+          "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%)",
+          "feature_attributions": [
+            {
+              "feature": "telemetry_coverage",
+              "value": 1,
+              "attribution": 0.26,
+              "rank": 1
+            },
+            {
+              "feature": "critical_alert_ratio",
+              "value": 1,
+              "attribution": 0.2067,
+              "rank": 2
+            },
+            {
+              "feature": "median_closure_time",
+              "value": 15,
+              "attribution": 0.1867,
+              "rank": 3
+            }
+          ],
+          "attribution_method": "isolation_forest_tree_path_attribution",
+          "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+          "model_parameters": {
+            "algorithm": "IsolationForest",
+            "n_estimators": 150,
+            "contamination": 0.15,
+            "random_state": 42
+          }
+        }
+      }
+    ]
+  },
+  "all_findings": [
+    {
+      "finding_id": "NS-LOWACT-ENT-B2",
+      "entity_id": "ENT-B2",
+      "finding_type": "NEGATIVE_SPACE",
+      "severity": "MEDIUM",
+      "title": "Unexpectedly Low Alert Activity",
+      "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+      "evidence_ids": [],
+      "supporting_metrics": {
+        "affected_entity": "ENT-B2",
+        "affected_assets": [],
+        "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+        "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+        "explanation": "Significant deficit in security signal density compared to sector peers.",
+        "entity_alert_count": 0,
+        "peer_mean_alert_count": 1,
+        "activity_ratio_vs_peer": 0,
+        "threshold_fraction": 0.25
+      }
+    },
+    {
+      "finding_id": "NS-LOWACT-ENT-B3",
+      "entity_id": "ENT-B3",
+      "finding_type": "NEGATIVE_SPACE",
+      "severity": "MEDIUM",
+      "title": "Unexpectedly Low Alert Activity",
+      "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+      "evidence_ids": [],
+      "supporting_metrics": {
+        "affected_entity": "ENT-B3",
+        "affected_assets": [],
+        "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+        "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+        "explanation": "Significant deficit in security signal density compared to sector peers.",
+        "entity_alert_count": 0,
+        "peer_mean_alert_count": 1,
+        "activity_ratio_vs_peer": 0,
+        "threshold_fraction": 0.25
+      }
+    },
+    {
+      "finding_id": "NS-LOWACT-ENT-B4",
+      "entity_id": "ENT-B4",
+      "finding_type": "NEGATIVE_SPACE",
+      "severity": "MEDIUM",
+      "title": "Unexpectedly Low Alert Activity",
+      "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+      "evidence_ids": [],
+      "supporting_metrics": {
+        "affected_entity": "ENT-B4",
+        "affected_assets": [],
+        "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+        "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+        "explanation": "Significant deficit in security signal density compared to sector peers.",
+        "entity_alert_count": 0,
+        "peer_mean_alert_count": 1,
+        "activity_ratio_vs_peer": 0,
+        "threshold_fraction": 0.25
+      }
+    },
+    {
+      "finding_id": "ANOM-ENT-B1",
+      "entity_id": "ENT-B1",
+      "finding_type": "ANOMALY",
+      "severity": "HIGH",
+      "title": "Statistical Anomaly Detected via Isolation Forest",
+      "rationale": "Entity classified as anomalous by Isolation Forest (normalised score: 1.000). Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%). This entity exhibits systemic behavioural departure from peer norms.",
+      "evidence_ids": [
+        "ALT-B1",
+        "CAS-B1",
+        "AST-B1"
+      ],
+      "supporting_metrics": {
+        "anomaly_score_normalised": 1,
+        "anomaly_score_raw": -0.687744,
+        "anomaly_classification": "ANOMALY",
+        "model_version_id": "IForest-v1.0-7b919d0fc469",
+        "feature_values": {
+          "alert_volume": 1,
+          "critical_alert_ratio": 1,
+          "median_closure_time": 15,
+          "escalation_rate": 0,
+          "repeat_alert_rate": 0,
+          "telemetry_coverage": 1,
+          "average_investigation_duration": 15
+        },
+        "peer_means": {
+          "alert_volume": 0.25,
+          "critical_alert_ratio": 0.25,
+          "median_closure_time": 3.75,
+          "escalation_rate": 0,
+          "repeat_alert_rate": 0,
+          "telemetry_coverage": 0.25,
+          "average_investigation_duration": 3.75
+        },
+        "feature_deviations": {
+          "alert_volume": 1,
+          "critical_alert_ratio": 1,
+          "median_closure_time": 15,
+          "escalation_rate": 0,
+          "repeat_alert_rate": 0,
+          "telemetry_coverage": 1,
+          "average_investigation_duration": 15
+        },
+        "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%)",
+        "feature_attributions": [
+          {
+            "feature": "telemetry_coverage",
+            "value": 1,
+            "attribution": 0.26,
+            "rank": 1
+          },
+          {
+            "feature": "critical_alert_ratio",
+            "value": 1,
+            "attribution": 0.2067,
+            "rank": 2
+          },
+          {
+            "feature": "median_closure_time",
+            "value": 15,
+            "attribution": 0.1867,
+            "rank": 3
+          }
+        ],
+        "attribution_method": "isolation_forest_tree_path_attribution",
+        "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+        "model_parameters": {
+          "algorithm": "IsolationForest",
+          "n_estimators": 150,
+          "contamination": 0.15,
+          "random_state": 42
+        }
+      }
+    }
+  ],
+  "entity_risk": {
+    "ENT-B1": {
+      "entity_id": "ENT-B1",
+      "entity_name": "Energy Beta 1",
+      "sector": "Energy",
+      "risk_score": 14,
+      "final_risk_score": 14,
+      "risk_level": "LOW",
+      "primary_drivers": [
+        {
+          "component": "anomaly",
+          "name": "Anomaly",
+          "raw_score": 70,
+          "weight": 0.2,
+          "weighted_contribution": 14,
+          "finding_count": 1
+        }
+      ],
+      "component_scores": {
+        "EXECUTION_GAP": {
+          "finding_type": "EXECUTION_GAP",
+          "weight": 0.3,
+          "weight_pct": "30%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "NEGATIVE_SPACE": {
+          "finding_type": "NEGATIVE_SPACE",
+          "weight": 0.25,
+          "weight_pct": "25%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "ANOMALY": {
+          "finding_type": "ANOMALY",
+          "weight": 0.2,
+          "weight_pct": "20%",
+          "raw_module_score": 70,
+          "weighted_contribution": 14,
+          "finding_count": 1,
+          "top_severity": "HIGH",
+          "finding_summaries": [
+            {
+              "finding_id": "ANOM-ENT-B1",
+              "title": "Statistical Anomaly Detected via Isolation Forest",
+              "severity": "HIGH",
+              "evidence_count": 3
+            }
+          ]
+        },
+        "PEER_DEVIATION": {
+          "finding_type": "PEER_DEVIATION",
+          "weight": 0.15,
+          "weight_pct": "15%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "REPEATED_INCIDENT": {
+          "finding_type": "REPEATED_INCIDENT",
+          "weight": 0.1,
+          "weight_pct": "10%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        }
+      },
+      "component_weighted_contributions": {
+        "execution_gap": 0,
+        "negative_space": 0,
+        "anomaly": 14,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "component_raw_scores": {
+        "execution_gap": 0,
+        "negative_space": 0,
+        "anomaly": 70,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "findings": [
+        {
+          "finding_id": "ANOM-ENT-B1",
+          "entity_id": "ENT-B1",
+          "finding_type": "ANOMALY",
+          "severity": "HIGH",
+          "title": "Statistical Anomaly Detected via Isolation Forest",
+          "rationale": "Entity classified as anomalous by Isolation Forest (normalised score: 1.000). Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%). This entity exhibits systemic behavioural departure from peer norms.",
+          "evidence_ids": [
+            "ALT-B1",
+            "CAS-B1",
+            "AST-B1"
+          ],
+          "supporting_metrics": {
+            "anomaly_score_normalised": 1,
+            "anomaly_score_raw": -0.687744,
+            "anomaly_classification": "ANOMALY",
+            "model_version_id": "IForest-v1.0-7b919d0fc469",
+            "feature_values": {
+              "alert_volume": 1,
+              "critical_alert_ratio": 1,
+              "median_closure_time": 15,
+              "escalation_rate": 0,
+              "repeat_alert_rate": 0,
+              "telemetry_coverage": 1,
+              "average_investigation_duration": 15
+            },
+            "peer_means": {
+              "alert_volume": 0.25,
+              "critical_alert_ratio": 0.25,
+              "median_closure_time": 3.75,
+              "escalation_rate": 0,
+              "repeat_alert_rate": 0,
+              "telemetry_coverage": 0.25,
+              "average_investigation_duration": 3.75
+            },
+            "feature_deviations": {
+              "alert_volume": 1,
+              "critical_alert_ratio": 1,
+              "median_closure_time": 15,
+              "escalation_rate": 0,
+              "repeat_alert_rate": 0,
+              "telemetry_coverage": 1,
+              "average_investigation_duration": 15
+            },
+            "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%)",
+            "feature_attributions": [
+              {
+                "feature": "telemetry_coverage",
+                "value": 1,
+                "attribution": 0.26,
+                "rank": 1
+              },
+              {
+                "feature": "critical_alert_ratio",
+                "value": 1,
+                "attribution": 0.2067,
+                "rank": 2
+              },
+              {
+                "feature": "median_closure_time",
+                "value": 15,
+                "attribution": 0.1867,
+                "rank": 3
+              }
+            ],
+            "attribution_method": "isolation_forest_tree_path_attribution",
+            "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+            "model_parameters": {
+              "algorithm": "IsolationForest",
+              "n_estimators": 150,
+              "contamination": 0.15,
+              "random_state": 42
+            }
+          }
+        }
+      ],
+      "explanation": {
+        "entity_id": "ENT-B1",
+        "entity_name": "Energy Beta 1",
+        "risk_score": 14,
+        "final_risk_score": 14,
+        "risk_level": "LOW",
+        "score_formula": "risk_score = 0.30 * execution_gap + 0.25 * negative_space + 0.20 * anomaly + 0.15 * peer_deviation + 0.10 * repeated_incidents",
+        "primary_drivers": [
+          {
+            "component": "anomaly",
+            "name": "Anomaly",
+            "raw_score": 70,
+            "weight": 0.2,
+            "weighted_contribution": 14,
+            "finding_count": 1
+          }
+        ],
+        "components": {
+          "execution_gap": {
+            "raw_score": 0,
+            "weight": 0.3,
+            "contribution": 0
+          },
+          "negative_space": {
+            "raw_score": 0,
+            "weight": 0.25,
+            "contribution": 0
+          },
+          "anomaly": {
+            "raw_score": 70,
+            "weight": 0.2,
+            "contribution": 14
+          },
+          "peer_deviation": {
+            "raw_score": 0,
+            "weight": 0.15,
+            "contribution": 0
+          },
+          "repeated_incidents": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          },
+          "repeated_incident": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          }
+        },
+        "module_breakdown": [
+          {
+            "module": "Statistical Anomaly",
+            "finding_type": "ANOMALY",
+            "weight_pct": "20%",
+            "raw_module_score": 70,
+            "weighted_contribution": 14,
+            "finding_count": 1,
+            "top_severity": "HIGH",
+            "findings": [
+              {
+                "finding_id": "ANOM-ENT-B1",
+                "severity": "HIGH",
+                "title": "Statistical Anomaly Detected via Isolation Forest",
+                "what": "Statistical Anomaly Detected via Isolation Forest",
+                "why": "Entity classified as anomalous by Isolation Forest (normalised score: 1.000). Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%). This entity exhibits systemic behavioural departure from peer norms.",
+                "evidence_ids": [
+                  "ALT-B1",
+                  "CAS-B1",
+                  "AST-B1"
+                ],
+                "evidence_count": 3,
+                "key_metrics": {
+                  "anomaly_score": 1,
+                  "top_deviating_features": {
+                    "median_closure_time": {
+                      "entity_value": 15,
+                      "peer_mean": 3.75,
+                      "deviation": 15
+                    },
+                    "average_investigation_duration": {
+                      "entity_value": 15,
+                      "peer_mean": 3.75,
+                      "deviation": 15
+                    },
+                    "alert_volume": {
+                      "entity_value": 1,
+                      "peer_mean": 0.25,
+                      "deviation": 1
+                    },
+                    "critical_alert_ratio": {
+                      "entity_value": 1,
+                      "peer_mean": 0.25,
+                      "deviation": 1
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "summary": "Overall risk level: LOW. The primary driver is Statistical Anomaly (20% weight, contributing 14.0 points from 1 finding(s) with top severity HIGH).",
+        "execution_gap": {
+          "raw_score": 0,
+          "weight": 0.3,
+          "contribution": 0
+        },
+        "negative_space": {
+          "raw_score": 0,
+          "weight": 0.25,
+          "contribution": 0
+        },
+        "anomaly": {
+          "raw_score": 70,
+          "weight": 0.2,
+          "contribution": 14
+        },
+        "peer_deviation": {
+          "raw_score": 0,
+          "weight": 0.15,
+          "contribution": 0
+        },
+        "repeated_incidents": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        },
+        "repeated_incident": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        }
+      }
+    },
+    "ENT-B2": {
+      "entity_id": "ENT-B2",
+      "entity_name": "Energy Beta 2",
+      "sector": "Energy",
+      "risk_score": 7.75,
+      "final_risk_score": 7.75,
+      "risk_level": "LOW",
+      "primary_drivers": [
+        {
+          "component": "negative_space",
+          "name": "Negative Space",
+          "raw_score": 31,
+          "weight": 0.25,
+          "weighted_contribution": 7.75,
+          "finding_count": 1
+        }
+      ],
+      "component_scores": {
+        "EXECUTION_GAP": {
+          "finding_type": "EXECUTION_GAP",
+          "weight": 0.3,
+          "weight_pct": "30%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "NEGATIVE_SPACE": {
+          "finding_type": "NEGATIVE_SPACE",
+          "weight": 0.25,
+          "weight_pct": "25%",
+          "raw_module_score": 31,
+          "weighted_contribution": 7.75,
+          "finding_count": 1,
+          "top_severity": "MEDIUM",
+          "finding_summaries": [
+            {
+              "finding_id": "NS-LOWACT-ENT-B2",
+              "title": "Unexpectedly Low Alert Activity",
+              "severity": "MEDIUM",
+              "evidence_count": 0
+            }
+          ]
+        },
+        "ANOMALY": {
+          "finding_type": "ANOMALY",
+          "weight": 0.2,
+          "weight_pct": "20%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "PEER_DEVIATION": {
+          "finding_type": "PEER_DEVIATION",
+          "weight": 0.15,
+          "weight_pct": "15%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "REPEATED_INCIDENT": {
+          "finding_type": "REPEATED_INCIDENT",
+          "weight": 0.1,
+          "weight_pct": "10%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        }
+      },
+      "component_weighted_contributions": {
+        "execution_gap": 0,
+        "negative_space": 7.75,
+        "anomaly": 0,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "component_raw_scores": {
+        "execution_gap": 0,
+        "negative_space": 31,
+        "anomaly": 0,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "findings": [
+        {
+          "finding_id": "NS-LOWACT-ENT-B2",
+          "entity_id": "ENT-B2",
+          "finding_type": "NEGATIVE_SPACE",
+          "severity": "MEDIUM",
+          "title": "Unexpectedly Low Alert Activity",
+          "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+          "evidence_ids": [],
+          "supporting_metrics": {
+            "affected_entity": "ENT-B2",
+            "affected_assets": [],
+            "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+            "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+            "explanation": "Significant deficit in security signal density compared to sector peers.",
+            "entity_alert_count": 0,
+            "peer_mean_alert_count": 1,
+            "activity_ratio_vs_peer": 0,
+            "threshold_fraction": 0.25
+          }
+        }
+      ],
+      "explanation": {
+        "entity_id": "ENT-B2",
+        "entity_name": "Energy Beta 2",
+        "risk_score": 7.75,
+        "final_risk_score": 7.75,
+        "risk_level": "LOW",
+        "score_formula": "risk_score = 0.30 * execution_gap + 0.25 * negative_space + 0.20 * anomaly + 0.15 * peer_deviation + 0.10 * repeated_incidents",
+        "primary_drivers": [
+          {
+            "component": "negative_space",
+            "name": "Negative Space",
+            "raw_score": 31,
+            "weight": 0.25,
+            "weighted_contribution": 7.75,
+            "finding_count": 1
+          }
+        ],
+        "components": {
+          "execution_gap": {
+            "raw_score": 0,
+            "weight": 0.3,
+            "contribution": 0
+          },
+          "negative_space": {
+            "raw_score": 31,
+            "weight": 0.25,
+            "contribution": 7.75
+          },
+          "anomaly": {
+            "raw_score": 0,
+            "weight": 0.2,
+            "contribution": 0
+          },
+          "peer_deviation": {
+            "raw_score": 0,
+            "weight": 0.15,
+            "contribution": 0
+          },
+          "repeated_incidents": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          },
+          "repeated_incident": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          }
+        },
+        "module_breakdown": [
+          {
+            "module": "Negative Space",
+            "finding_type": "NEGATIVE_SPACE",
+            "weight_pct": "25%",
+            "raw_module_score": 31,
+            "weighted_contribution": 7.75,
+            "finding_count": 1,
+            "top_severity": "MEDIUM",
+            "findings": [
+              {
+                "finding_id": "NS-LOWACT-ENT-B2",
+                "severity": "MEDIUM",
+                "title": "Unexpectedly Low Alert Activity",
+                "what": "Unexpectedly Low Alert Activity",
+                "why": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+                "evidence_ids": [],
+                "evidence_count": 0,
+                "key_metrics": {
+                  "entity_alert_count": 0,
+                  "peer_mean_alert_count": 1,
+                  "activity_ratio_vs_peer": "0.0%"
+                }
+              }
+            ]
+          }
+        ],
+        "summary": "Overall risk level: LOW. The primary driver is Negative Space (25% weight, contributing 7.8 points from 1 finding(s) with top severity MEDIUM).",
+        "execution_gap": {
+          "raw_score": 0,
+          "weight": 0.3,
+          "contribution": 0
+        },
+        "negative_space": {
+          "raw_score": 31,
+          "weight": 0.25,
+          "contribution": 7.75
+        },
+        "anomaly": {
+          "raw_score": 0,
+          "weight": 0.2,
+          "contribution": 0
+        },
+        "peer_deviation": {
+          "raw_score": 0,
+          "weight": 0.15,
+          "contribution": 0
+        },
+        "repeated_incidents": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        },
+        "repeated_incident": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        }
+      }
+    },
+    "ENT-B3": {
+      "entity_id": "ENT-B3",
+      "entity_name": "Energy Beta 3",
+      "sector": "Energy",
+      "risk_score": 7.75,
+      "final_risk_score": 7.75,
+      "risk_level": "LOW",
+      "primary_drivers": [
+        {
+          "component": "negative_space",
+          "name": "Negative Space",
+          "raw_score": 31,
+          "weight": 0.25,
+          "weighted_contribution": 7.75,
+          "finding_count": 1
+        }
+      ],
+      "component_scores": {
+        "EXECUTION_GAP": {
+          "finding_type": "EXECUTION_GAP",
+          "weight": 0.3,
+          "weight_pct": "30%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "NEGATIVE_SPACE": {
+          "finding_type": "NEGATIVE_SPACE",
+          "weight": 0.25,
+          "weight_pct": "25%",
+          "raw_module_score": 31,
+          "weighted_contribution": 7.75,
+          "finding_count": 1,
+          "top_severity": "MEDIUM",
+          "finding_summaries": [
+            {
+              "finding_id": "NS-LOWACT-ENT-B3",
+              "title": "Unexpectedly Low Alert Activity",
+              "severity": "MEDIUM",
+              "evidence_count": 0
+            }
+          ]
+        },
+        "ANOMALY": {
+          "finding_type": "ANOMALY",
+          "weight": 0.2,
+          "weight_pct": "20%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "PEER_DEVIATION": {
+          "finding_type": "PEER_DEVIATION",
+          "weight": 0.15,
+          "weight_pct": "15%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "REPEATED_INCIDENT": {
+          "finding_type": "REPEATED_INCIDENT",
+          "weight": 0.1,
+          "weight_pct": "10%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        }
+      },
+      "component_weighted_contributions": {
+        "execution_gap": 0,
+        "negative_space": 7.75,
+        "anomaly": 0,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "component_raw_scores": {
+        "execution_gap": 0,
+        "negative_space": 31,
+        "anomaly": 0,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "findings": [
+        {
+          "finding_id": "NS-LOWACT-ENT-B3",
+          "entity_id": "ENT-B3",
+          "finding_type": "NEGATIVE_SPACE",
+          "severity": "MEDIUM",
+          "title": "Unexpectedly Low Alert Activity",
+          "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+          "evidence_ids": [],
+          "supporting_metrics": {
+            "affected_entity": "ENT-B3",
+            "affected_assets": [],
+            "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+            "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+            "explanation": "Significant deficit in security signal density compared to sector peers.",
+            "entity_alert_count": 0,
+            "peer_mean_alert_count": 1,
+            "activity_ratio_vs_peer": 0,
+            "threshold_fraction": 0.25
+          }
+        }
+      ],
+      "explanation": {
+        "entity_id": "ENT-B3",
+        "entity_name": "Energy Beta 3",
+        "risk_score": 7.75,
+        "final_risk_score": 7.75,
+        "risk_level": "LOW",
+        "score_formula": "risk_score = 0.30 * execution_gap + 0.25 * negative_space + 0.20 * anomaly + 0.15 * peer_deviation + 0.10 * repeated_incidents",
+        "primary_drivers": [
+          {
+            "component": "negative_space",
+            "name": "Negative Space",
+            "raw_score": 31,
+            "weight": 0.25,
+            "weighted_contribution": 7.75,
+            "finding_count": 1
+          }
+        ],
+        "components": {
+          "execution_gap": {
+            "raw_score": 0,
+            "weight": 0.3,
+            "contribution": 0
+          },
+          "negative_space": {
+            "raw_score": 31,
+            "weight": 0.25,
+            "contribution": 7.75
+          },
+          "anomaly": {
+            "raw_score": 0,
+            "weight": 0.2,
+            "contribution": 0
+          },
+          "peer_deviation": {
+            "raw_score": 0,
+            "weight": 0.15,
+            "contribution": 0
+          },
+          "repeated_incidents": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          },
+          "repeated_incident": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          }
+        },
+        "module_breakdown": [
+          {
+            "module": "Negative Space",
+            "finding_type": "NEGATIVE_SPACE",
+            "weight_pct": "25%",
+            "raw_module_score": 31,
+            "weighted_contribution": 7.75,
+            "finding_count": 1,
+            "top_severity": "MEDIUM",
+            "findings": [
+              {
+                "finding_id": "NS-LOWACT-ENT-B3",
+                "severity": "MEDIUM",
+                "title": "Unexpectedly Low Alert Activity",
+                "what": "Unexpectedly Low Alert Activity",
+                "why": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+                "evidence_ids": [],
+                "evidence_count": 0,
+                "key_metrics": {
+                  "entity_alert_count": 0,
+                  "peer_mean_alert_count": 1,
+                  "activity_ratio_vs_peer": "0.0%"
+                }
+              }
+            ]
+          }
+        ],
+        "summary": "Overall risk level: LOW. The primary driver is Negative Space (25% weight, contributing 7.8 points from 1 finding(s) with top severity MEDIUM).",
+        "execution_gap": {
+          "raw_score": 0,
+          "weight": 0.3,
+          "contribution": 0
+        },
+        "negative_space": {
+          "raw_score": 31,
+          "weight": 0.25,
+          "contribution": 7.75
+        },
+        "anomaly": {
+          "raw_score": 0,
+          "weight": 0.2,
+          "contribution": 0
+        },
+        "peer_deviation": {
+          "raw_score": 0,
+          "weight": 0.15,
+          "contribution": 0
+        },
+        "repeated_incidents": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        },
+        "repeated_incident": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        }
+      }
+    },
+    "ENT-B4": {
+      "entity_id": "ENT-B4",
+      "entity_name": "Energy Beta 4",
+      "sector": "Energy",
+      "risk_score": 7.75,
+      "final_risk_score": 7.75,
+      "risk_level": "LOW",
+      "primary_drivers": [
+        {
+          "component": "negative_space",
+          "name": "Negative Space",
+          "raw_score": 31,
+          "weight": 0.25,
+          "weighted_contribution": 7.75,
+          "finding_count": 1
+        }
+      ],
+      "component_scores": {
+        "EXECUTION_GAP": {
+          "finding_type": "EXECUTION_GAP",
+          "weight": 0.3,
+          "weight_pct": "30%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "NEGATIVE_SPACE": {
+          "finding_type": "NEGATIVE_SPACE",
+          "weight": 0.25,
+          "weight_pct": "25%",
+          "raw_module_score": 31,
+          "weighted_contribution": 7.75,
+          "finding_count": 1,
+          "top_severity": "MEDIUM",
+          "finding_summaries": [
+            {
+              "finding_id": "NS-LOWACT-ENT-B4",
+              "title": "Unexpectedly Low Alert Activity",
+              "severity": "MEDIUM",
+              "evidence_count": 0
+            }
+          ]
+        },
+        "ANOMALY": {
+          "finding_type": "ANOMALY",
+          "weight": 0.2,
+          "weight_pct": "20%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "PEER_DEVIATION": {
+          "finding_type": "PEER_DEVIATION",
+          "weight": 0.15,
+          "weight_pct": "15%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        },
+        "REPEATED_INCIDENT": {
+          "finding_type": "REPEATED_INCIDENT",
+          "weight": 0.1,
+          "weight_pct": "10%",
+          "raw_module_score": 0,
+          "weighted_contribution": 0,
+          "finding_count": 0,
+          "top_severity": "",
+          "finding_summaries": []
+        }
+      },
+      "component_weighted_contributions": {
+        "execution_gap": 0,
+        "negative_space": 7.75,
+        "anomaly": 0,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "component_raw_scores": {
+        "execution_gap": 0,
+        "negative_space": 31,
+        "anomaly": 0,
+        "peer_deviation": 0,
+        "repeated_incidents": 0
+      },
+      "findings": [
+        {
+          "finding_id": "NS-LOWACT-ENT-B4",
+          "entity_id": "ENT-B4",
+          "finding_type": "NEGATIVE_SPACE",
+          "severity": "MEDIUM",
+          "title": "Unexpectedly Low Alert Activity",
+          "rationale": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+          "evidence_ids": [],
+          "supporting_metrics": {
+            "affected_entity": "ENT-B4",
+            "affected_assets": [],
+            "expected_evidence": "Alert volume consistent with sector peers (peer mean: 1.0 alerts)",
+            "observed_evidence": "Only 0 total alerts recorded (0.0% of peer baseline)",
+            "explanation": "Significant deficit in security signal density compared to sector peers.",
+            "entity_alert_count": 0,
+            "peer_mean_alert_count": 1,
+            "activity_ratio_vs_peer": 0,
+            "threshold_fraction": 0.25
+          }
+        }
+      ],
+      "explanation": {
+        "entity_id": "ENT-B4",
+        "entity_name": "Energy Beta 4",
+        "risk_score": 7.75,
+        "final_risk_score": 7.75,
+        "risk_level": "LOW",
+        "score_formula": "risk_score = 0.30 * execution_gap + 0.25 * negative_space + 0.20 * anomaly + 0.15 * peer_deviation + 0.10 * repeated_incidents",
+        "primary_drivers": [
+          {
+            "component": "negative_space",
+            "name": "Negative Space",
+            "raw_score": 31,
+            "weight": 0.25,
+            "weighted_contribution": 7.75,
+            "finding_count": 1
+          }
+        ],
+        "components": {
+          "execution_gap": {
+            "raw_score": 0,
+            "weight": 0.3,
+            "contribution": 0
+          },
+          "negative_space": {
+            "raw_score": 31,
+            "weight": 0.25,
+            "contribution": 7.75
+          },
+          "anomaly": {
+            "raw_score": 0,
+            "weight": 0.2,
+            "contribution": 0
+          },
+          "peer_deviation": {
+            "raw_score": 0,
+            "weight": 0.15,
+            "contribution": 0
+          },
+          "repeated_incidents": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          },
+          "repeated_incident": {
+            "raw_score": 0,
+            "weight": 0.1,
+            "contribution": 0
+          }
+        },
+        "module_breakdown": [
+          {
+            "module": "Negative Space",
+            "finding_type": "NEGATIVE_SPACE",
+            "weight_pct": "25%",
+            "raw_module_score": 31,
+            "weighted_contribution": 7.75,
+            "finding_count": 1,
+            "top_severity": "MEDIUM",
+            "findings": [
+              {
+                "finding_id": "NS-LOWACT-ENT-B4",
+                "severity": "MEDIUM",
+                "title": "Unexpectedly Low Alert Activity",
+                "what": "Unexpectedly Low Alert Activity",
+                "why": "Entity has only 0 alerts, which is 0.0% of the peer mean (1). Abnormally low activity may indicate disabled monitoring, telemetry suppression, or sensor pipeline disconnection.",
+                "evidence_ids": [],
+                "evidence_count": 0,
+                "key_metrics": {
+                  "entity_alert_count": 0,
+                  "peer_mean_alert_count": 1,
+                  "activity_ratio_vs_peer": "0.0%"
+                }
+              }
+            ]
+          }
+        ],
+        "summary": "Overall risk level: LOW. The primary driver is Negative Space (25% weight, contributing 7.8 points from 1 finding(s) with top severity MEDIUM).",
+        "execution_gap": {
+          "raw_score": 0,
+          "weight": 0.3,
+          "contribution": 0
+        },
+        "negative_space": {
+          "raw_score": 31,
+          "weight": 0.25,
+          "contribution": 7.75
+        },
+        "anomaly": {
+          "raw_score": 0,
+          "weight": 0.2,
+          "contribution": 0
+        },
+        "peer_deviation": {
+          "raw_score": 0,
+          "weight": 0.15,
+          "contribution": 0
+        },
+        "repeated_incidents": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        },
+        "repeated_incident": {
+          "raw_score": 0,
+          "weight": 0.1,
+          "contribution": 0
+        }
+      }
+    }
+  },
+  "entity_anomalies": {
+    "ENT-B1": {
+      "entity_id": "ENT-B1",
+      "anomaly_score": 1,
+      "anomaly_score_raw": -0.687744,
+      "anomaly_classification": "ANOMALY",
+      "is_anomaly": true,
+      "model_version_id": "IForest-v1.0-7b919d0fc469",
+      "feature_values": {
+        "alert_volume": 1,
+        "critical_alert_ratio": 1,
+        "median_closure_time": 15,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 1,
+        "average_investigation_duration": 15
+      },
+      "peer_means": {
+        "alert_volume": 0.25,
+        "critical_alert_ratio": 0.25,
+        "median_closure_time": 3.75,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 0.25,
+        "average_investigation_duration": 3.75
+      },
+      "feature_deviations": {
+        "alert_volume": 1,
+        "critical_alert_ratio": 1,
+        "median_closure_time": 15,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 1,
+        "average_investigation_duration": 15
+      },
+      "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=1.000 (Tree isolating weight: 26.0%); critical_alert_ratio=1.000 (Tree isolating weight: 20.7%); median_closure_time=15.000 (Tree isolating weight: 18.7%)",
+      "attribution_method": "isolation_forest_tree_path_attribution",
+      "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+      "feature_attributions": [
+        {
+          "feature": "telemetry_coverage",
+          "value": 1,
+          "attribution": 0.26,
+          "rank": 1
+        },
+        {
+          "feature": "critical_alert_ratio",
+          "value": 1,
+          "attribution": 0.2067,
+          "rank": 2
+        },
+        {
+          "feature": "median_closure_time",
+          "value": 15,
+          "attribution": 0.1867,
+          "rank": 3
+        }
+      ]
+    },
+    "ENT-B2": {
+      "entity_id": "ENT-B2",
+      "anomaly_score": 0,
+      "anomaly_score_raw": -0.43766,
+      "anomaly_classification": "NORMAL",
+      "is_anomaly": false,
+      "model_version_id": "IForest-v1.0-7b919d0fc469",
+      "feature_values": {
+        "alert_volume": 0,
+        "critical_alert_ratio": 0,
+        "median_closure_time": 0,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 0,
+        "average_investigation_duration": 0
+      },
+      "peer_means": {
+        "alert_volume": 0.25,
+        "critical_alert_ratio": 0.25,
+        "median_closure_time": 3.75,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 0.25,
+        "average_investigation_duration": 3.75
+      },
+      "feature_deviations": {
+        "alert_volume": -0.3333,
+        "critical_alert_ratio": -0.3333,
+        "median_closure_time": -5,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": -0.3333,
+        "average_investigation_duration": -5
+      },
+      "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=0.000 (Tree isolating weight: 26.0%); critical_alert_ratio=0.000 (Tree isolating weight: 20.7%); median_closure_time=0.000 (Tree isolating weight: 18.7%)",
+      "attribution_method": "isolation_forest_tree_path_attribution",
+      "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+      "feature_attributions": [
+        {
+          "feature": "telemetry_coverage",
+          "value": 0,
+          "attribution": 0.26,
+          "rank": 1
+        },
+        {
+          "feature": "critical_alert_ratio",
+          "value": 0,
+          "attribution": 0.2067,
+          "rank": 2
+        },
+        {
+          "feature": "median_closure_time",
+          "value": 0,
+          "attribution": 0.1867,
+          "rank": 3
+        }
+      ]
+    },
+    "ENT-B3": {
+      "entity_id": "ENT-B3",
+      "anomaly_score": 0,
+      "anomaly_score_raw": -0.43766,
+      "anomaly_classification": "NORMAL",
+      "is_anomaly": false,
+      "model_version_id": "IForest-v1.0-7b919d0fc469",
+      "feature_values": {
+        "alert_volume": 0,
+        "critical_alert_ratio": 0,
+        "median_closure_time": 0,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 0,
+        "average_investigation_duration": 0
+      },
+      "peer_means": {
+        "alert_volume": 0.25,
+        "critical_alert_ratio": 0.25,
+        "median_closure_time": 3.75,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 0.25,
+        "average_investigation_duration": 3.75
+      },
+      "feature_deviations": {
+        "alert_volume": -0.3333,
+        "critical_alert_ratio": -0.3333,
+        "median_closure_time": -5,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": -0.3333,
+        "average_investigation_duration": -5
+      },
+      "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=0.000 (Tree isolating weight: 26.0%); critical_alert_ratio=0.000 (Tree isolating weight: 20.7%); median_closure_time=0.000 (Tree isolating weight: 18.7%)",
+      "attribution_method": "isolation_forest_tree_path_attribution",
+      "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+      "feature_attributions": [
+        {
+          "feature": "telemetry_coverage",
+          "value": 0,
+          "attribution": 0.26,
+          "rank": 1
+        },
+        {
+          "feature": "critical_alert_ratio",
+          "value": 0,
+          "attribution": 0.2067,
+          "rank": 2
+        },
+        {
+          "feature": "median_closure_time",
+          "value": 0,
+          "attribution": 0.1867,
+          "rank": 3
+        }
+      ]
+    },
+    "ENT-B4": {
+      "entity_id": "ENT-B4",
+      "anomaly_score": 0,
+      "anomaly_score_raw": -0.43766,
+      "anomaly_classification": "NORMAL",
+      "is_anomaly": false,
+      "model_version_id": "IForest-v1.0-7b919d0fc469",
+      "feature_values": {
+        "alert_volume": 0,
+        "critical_alert_ratio": 0,
+        "median_closure_time": 0,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 0,
+        "average_investigation_duration": 0
+      },
+      "peer_means": {
+        "alert_volume": 0.25,
+        "critical_alert_ratio": 0.25,
+        "median_closure_time": 3.75,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": 0.25,
+        "average_investigation_duration": 3.75
+      },
+      "feature_deviations": {
+        "alert_volume": -0.3333,
+        "critical_alert_ratio": -0.3333,
+        "median_closure_time": -5,
+        "escalation_rate": 0,
+        "repeat_alert_rate": 0,
+        "telemetry_coverage": -0.3333,
+        "average_investigation_duration": -5
+      },
+      "explanation": "Top isolating features (Formal Tree Path Attribution): telemetry_coverage=0.000 (Tree isolating weight: 26.0%); critical_alert_ratio=0.000 (Tree isolating weight: 20.7%); median_closure_time=0.000 (Tree isolating weight: 18.7%)",
+      "attribution_method": "isolation_forest_tree_path_attribution",
+      "attribution_limitation": "Attribution based on inverse depth of splits in IsolationForest trees. Explains isolation mathematically.",
+      "feature_attributions": [
+        {
+          "feature": "telemetry_coverage",
+          "value": 0,
+          "attribution": 0.26,
+          "rank": 1
+        },
+        {
+          "feature": "critical_alert_ratio",
+          "value": 0,
+          "attribution": 0.2067,
+          "rank": 2
+        },
+        {
+          "feature": "median_closure_time",
+          "value": 0,
+          "attribution": 0.1867,
+          "rank": 3
+        }
+      ]
+    }
+  }
+}

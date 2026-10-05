@@ -1,0 +1,21 @@
+entity_id,entity_name,sector
+CSE-001,Apex State Bank of India,Banking
+CSE-002,National Thermal Energy Grid,Energy
+CSE-003,Central Defence Logistics Hub,Defence
+CSE-004,Bharat Telecom Backbone,Telecom
+CSE-005,Northern Railways Signalling Corp,Transport
+CSE-006,Metro Healthcare Infrastructure,Healthcare
+CSE-007,National Power Transmission Sub-tier A,Energy
+CSE-008,Union Financial Clearing House,Banking
+CSE-009,Naval Weapons Research Lab,Defence
+CSE-010,Coastal Gas Pipelines Ltd,Energy
+CSE-011,Unified Payments Network,Banking
+CSE-012,Strategic Satellite Ground Station,Defence
+CSE-013,National Fiber Optic Core,Telecom
+CSE-014,Air Traffic Control Western Region,Transport
+CSE-015,Central Biomedical Registry,Healthcare
+CSE-016,Hydroelectric Dam Automated Systems,Energy
+CSE-017,Securities Exchange Depository,Banking
+CSE-018,Tactical Radio Command,Defence
+CSE-019,Deepwater Port Terminal Controls,Transport
+CSE-020,Epidemic Surveillance Network,Healthcare

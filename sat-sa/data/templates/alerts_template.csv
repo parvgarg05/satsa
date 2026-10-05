@@ -1,0 +1,3 @@
+alert_id,timestamp,entity_id,asset_id,severity,category,status
+ALT-001,2026-09-28T10:00:00Z,CSE-001,AST-001,HIGH,Malware,CLOSED
+ALT-002,2026-09-28T10:05:00Z,CSE-001,AST-002,LOW,Phishing,OPEN

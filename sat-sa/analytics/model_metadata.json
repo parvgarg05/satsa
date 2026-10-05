@@ -1,0 +1,27 @@
+{
+  "model_name": "sat_sa_isolation_forest",
+  "algorithm": "sklearn.ensemble.IsolationForest",
+  "version": "1.0",
+  "model_id": "IForest-v1.0-fbd6a3ce4446",
+  "feature_schema": {
+    "version": "1.0",
+    "features": [
+      "alert_volume",
+      "critical_alert_ratio",
+      "median_closure_time",
+      "escalation_rate",
+      "repeat_alert_rate",
+      "telemetry_coverage",
+      "average_investigation_duration"
+    ]
+  },
+  "parameters": {
+    "n_estimators": 150,
+    "max_samples": "auto",
+    "contamination": 0.15,
+    "random_state": 42
+  },
+  "training_dataset_identity": "fbd6a3ce4446",
+  "creation_timestamp": "2026-09-29T17:02:49.499365+00:00",
+  "code_config_version": "PS-157-Final"
+}

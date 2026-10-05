@@ -1,0 +1,182 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+[data-theme="light"],
+.light {
+  color-scheme: light;
+  --bg-page: #F5F3EE;
+  --bg-sidebar: #FAF8F3;
+  --bg-header: #FAF8F3;
+  --surface-primary: #FFFFFF;
+  --surface-secondary: #F0EEE8;
+  --surface-elevated: #F0EEE8;
+  --surface-hover: #E9E6DF;
+  --border-main: #DDD9D0;
+  --border-subtle: #DDD9D0;
+  --border-strong: #C4C0B6;
+  --border-button: #DDD9D0;
+  --border-divider: #EBE8E0;
+  --text-heading: #15171B;
+  --text-primary: #20242A;
+  --text-secondary: #626872;
+  --text-muted: #858C96;
+  --text-disabled: #A1A5AB;
+  --accent-color: #A87328;
+  
+  --nav-active-bg: #F0EEE8;
+  --nav-active-text: #15171B;
+  --nav-active-indicator: #A87328;
+  --nav-inactive-text: #626872;
+
+  --sev-critical: #A34A4A;
+  --sev-high: #A85A2A;
+  --sev-medium: #9C782C;
+  --sev-low: #3E8A66;
+  --chart-neutral: #9AA0A8;
+
+  --btn-primary-bg: #A87328;
+  --btn-primary-text: #FFFFFF;
+  --btn-primary-hover: #916120;
+
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: #20242A;
+  --btn-secondary-border: #C4C0B6;
+  --btn-secondary-hover: #F0EEE8;
+
+  --input-bg: #FFFFFF;
+  --input-border: #C4C0B6;
+  --input-text: #20242A;
+
+  --scrollbar-track: #F5F3EE;
+  --scrollbar-thumb: #C4C0B6;
+}
+
+[data-theme="dark"],
+.dark {
+  color-scheme: dark;
+  --bg-page: #15171B;
+  --bg-sidebar: #181B20;
+  --bg-header: #181B20;
+  --surface-primary: #1B1E24;
+  --surface-secondary: #20242A;
+  --surface-elevated: #20242A;
+  --surface-hover: #252A31;
+  --border-main: #30353D;
+  --border-subtle: #30353D;
+  --border-strong: #3A4049;
+  --border-button: #3A4049;
+  --border-divider: #2C3138;
+  --text-heading: #F0F1F3;
+  --text-primary: #E6E8EB;
+  --text-secondary: #B4BAC3;
+  --text-muted: #858C96;
+  --text-disabled: #626872;
+  --accent-color: #C28A42;
+  
+  --nav-active-bg: #20242A;
+  --nav-active-text: #F0F1F3;
+  --nav-active-indicator: #C28A42;
+  --nav-inactive-text: #C9CDD3;
+
+  /* Muted restrained semantic severity colors */
+  --sev-critical: #B85C5C;
+  --sev-high: #C8794A;
+  --sev-medium: #C19A4A;
+  --sev-low: #5FAF83;
+  --chart-neutral: #7B838E;
+
+  --btn-primary-bg: #C28A42;
+  --btn-primary-text: #17191D;
+  --btn-primary-hover: #D89C4F;
+
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: #D5D8DD;
+  --btn-secondary-border: #3A4049;
+  --btn-secondary-hover: #20242A;
+
+  --input-bg: #20242A;
+  --input-border: #3A4049;
+  --input-text: #D8DBDF;
+
+  --scrollbar-track: #15171B;
+  --scrollbar-thumb: #3A4049;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Clean, restrained enterprise scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  filter: brightness(1.2);
+}
+
+/* ──────────────────────────────────────────────────────────── */
+/* PRINT STYLESHEET: Clean, isolated report export */
+/* ──────────────────────────────────────────────────────────── */
+@media print {
+  /* Hide all app chrome: sidebar, top header, buttons, inputs, dropdowns */
+  aside,
+  header,
+  nav,
+  button,
+  select,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #root,
+  .min-h-screen,
+  .h-screen,
+  .flex-1,
+  main {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    display: block !important;
+    background: #ffffff !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Force browsers to print background colors and borders */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  @page {
+    margin: 12mm 15mm;
+    size: auto;
+  }
+}

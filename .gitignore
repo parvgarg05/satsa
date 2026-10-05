@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Builds & Outputs
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# Databases & Runtime State
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+benchmark.db
+backend/assessments/*.db
+backend/sat_sa.db
+analytics_cache*.json
+backend/analytics_cache*.json
+
+# Offline bundle builds (heavy binary wheels)
+deployment/sat-sa-offline-bundle/
+deployment/python/*.whl
+deployment/npm/
+
+# Environment and OS Files
+.env
+.DS_Store
+Thumbs.db

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "assessment": {
+    "reference_timestamp": "2026-09-27T12:00:00Z",
+    "telemetry_stale_days": {
+      "CRITICAL": 7,
+      "HIGH": 14
+    },
+    "period_days": 30
+  },
+  "execution_gaps": {
+    "quick_closure_minutes": 10,
+    "quick_closure_ratio": 0.4,
+    "no_escalation_ratio": 0.4,
+    "short_duration_minutes": 15,
+    "short_duration_ratio": 0.5,
+    "repeat_alert_min_cluster": 5,
+    "repeat_unremediated_ratio": 0.7,
+    "premature_remediation_minutes": 5,
+    "inconsistent_process_ratio": 0.15
+  },
+  "negative_space": {
+    "missing_investigation_ratio": 0.2,
+    "low_activity_fraction": 0.25,
+    "missing_escalation_ratio": 0.8,
+    "minimum_peer_entities": 3
+  },
+  "peer_comparison": {
+    "escalation_deviation": 0.08,
+    "closure_time_ratio": 0.5,
+    "duration_ratio": 0.5,
+    "telemetry_deviation": 0.15,
+    "critical_ratio_deviation": 0.25,
+    "minimum_sector_entities": 3,
+    "minimum_entity_cases": 5
+  },
+  "repeated_incidents": {
+    "minimum_repeat_count": 3,
+    "unremediated_ratio": 0.6,
+    "period_days": 30
+  },
+  "anomaly": {
+    "n_estimators": 150,
+    "contamination": 0.15,
+    "random_state": 42,
+    "minimum_entities": 3
+  },
+  "risk_weights": {
+    "EXECUTION_GAP": 0.3,
+    "NEGATIVE_SPACE": 0.25,
+    "ANOMALY": 0.2,
+    "PEER_DEVIATION": 0.15,
+    "REPEATED_INCIDENT": 0.1
+  }
+}

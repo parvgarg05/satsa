@@ -1,0 +1,2 @@
+case_id,alert_id,entity_id,investigator,opened_at,investigation_duration,escalated,closed_at,closure_reason,remediation_status
+CAS-001,ALT-001,CSE-001,SOC-01,2026-09-28T10:05:00Z,15.5,0,2026-09-28T10:20:00Z,False Positive,None

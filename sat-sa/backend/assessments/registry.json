@@ -1,0 +1,25 @@
+{
+  "active_id": "ASM-20260929-D6D1F9",
+  "assessments": {
+    "ASM-DEFAULT": {
+      "assessment_id": "ASM-DEFAULT",
+      "name": "Baseline Assessment",
+      "description": "Default baseline supervisory assessment",
+      "created_at": "2026-09-28T20:59:03.014Z",
+      "updated_at": "2026-09-28T20:59:03.016Z",
+      "db_path": "C:\\Users\\Parv Garg\\Desktop\\PS0157\\sat-sa\\backend\\sat_sa.db",
+      "cache_path": "C:\\Users\\Parv Garg\\Desktop\\PS0157\\sat-sa\\backend\\analytics_cache.json",
+      "status": "READY"
+    },
+    "ASM-20260929-D6D1F9": {
+      "assessment_id": "ASM-20260929-D6D1F9",
+      "name": "29-09-26",
+      "description": "Supervisory analytics assessment period",
+      "created_at": "2026-09-29T07:22:43.903Z",
+      "updated_at": "2026-09-29T07:22:43.903Z",
+      "db_path": "C:\\Users\\Parv Garg\\Desktop\\PS0157\\sat-sa\\backend\\assessments\\ASM-20260929-D6D1F9.db",
+      "cache_path": "C:\\Users\\Parv Garg\\Desktop\\PS0157\\sat-sa\\backend\\assessments\\cache_ASM-20260929-D6D1F9.json",
+      "status": "READY"
+    }
+  }
+}

@@ -1,0 +1,3138 @@
+[
+  {
+    "asset_id": "AST-001-01",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-02",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-03",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-04",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-05",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-06",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-07",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-08",
+    "entity_id": "CSE-001",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-09",
+    "entity_id": "CSE-001",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-10",
+    "entity_id": "CSE-001",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-11",
+    "entity_id": "CSE-001",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-12",
+    "entity_id": "CSE-001",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-13",
+    "entity_id": "CSE-001",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-14",
+    "entity_id": "CSE-001",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-15",
+    "entity_id": "CSE-001",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-16",
+    "entity_id": "CSE-001",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-17",
+    "entity_id": "CSE-001",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-001-18",
+    "entity_id": "CSE-001",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-01",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-02",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-03",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-04",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-05",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-06",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-07",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-08",
+    "entity_id": "CSE-002",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-09",
+    "entity_id": "CSE-002",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-10",
+    "entity_id": "CSE-002",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-11",
+    "entity_id": "CSE-002",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-12",
+    "entity_id": "CSE-002",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-13",
+    "entity_id": "CSE-002",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-14",
+    "entity_id": "CSE-002",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-15",
+    "entity_id": "CSE-002",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-16",
+    "entity_id": "CSE-002",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-17",
+    "entity_id": "CSE-002",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-002-18",
+    "entity_id": "CSE-002",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-01",
+    "entity_id": "CSE-003",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-02",
+    "entity_id": "CSE-003",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-03",
+    "entity_id": "CSE-003",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-04",
+    "entity_id": "CSE-003",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-05",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-06",
+    "entity_id": "CSE-003",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-07",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-08",
+    "entity_id": "CSE-003",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-09",
+    "entity_id": "CSE-003",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-21T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-10",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-11",
+    "entity_id": "CSE-003",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-12",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-13",
+    "entity_id": "CSE-003",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-14",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-15",
+    "entity_id": "CSE-003",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-21T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-16",
+    "entity_id": "CSE-003",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-17",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-18",
+    "entity_id": "CSE-003",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-19",
+    "entity_id": "CSE-003",
+    "asset_type": "Domain Controller",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-20",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-21",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-003-22",
+    "entity_id": "CSE-003",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-01",
+    "entity_id": "CSE-004",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-02",
+    "entity_id": "CSE-004",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-03",
+    "entity_id": "CSE-004",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-04",
+    "entity_id": "CSE-004",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-05",
+    "entity_id": "CSE-004",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-06",
+    "entity_id": "CSE-004",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-07",
+    "entity_id": "CSE-004",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-08",
+    "entity_id": "CSE-004",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-09",
+    "entity_id": "CSE-004",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-10",
+    "entity_id": "CSE-004",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-11",
+    "entity_id": "CSE-004",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-12",
+    "entity_id": "CSE-004",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-13",
+    "entity_id": "CSE-004",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-14",
+    "entity_id": "CSE-004",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-15",
+    "entity_id": "CSE-004",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-16",
+    "entity_id": "CSE-004",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-17",
+    "entity_id": "CSE-004",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-18",
+    "entity_id": "CSE-004",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-19",
+    "entity_id": "CSE-004",
+    "asset_type": "SCADA",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-004-20",
+    "entity_id": "CSE-004",
+    "asset_type": "SCADA",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-01",
+    "entity_id": "CSE-005",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-02",
+    "entity_id": "CSE-005",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-03",
+    "entity_id": "CSE-005",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-04",
+    "entity_id": "CSE-005",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-05",
+    "entity_id": "CSE-005",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-06",
+    "entity_id": "CSE-005",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-07",
+    "entity_id": "CSE-005",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-08",
+    "entity_id": "CSE-005",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-09",
+    "entity_id": "CSE-005",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-10",
+    "entity_id": "CSE-005",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-11",
+    "entity_id": "CSE-005",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-12",
+    "entity_id": "CSE-005",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-13",
+    "entity_id": "CSE-005",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-14",
+    "entity_id": "CSE-005",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-15",
+    "entity_id": "CSE-005",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-16",
+    "entity_id": "CSE-005",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-17",
+    "entity_id": "CSE-005",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-005-18",
+    "entity_id": "CSE-005",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-01",
+    "entity_id": "CSE-006",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-02",
+    "entity_id": "CSE-006",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-03",
+    "entity_id": "CSE-006",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-04",
+    "entity_id": "CSE-006",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-05",
+    "entity_id": "CSE-006",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-06",
+    "entity_id": "CSE-006",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-07",
+    "entity_id": "CSE-006",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-08",
+    "entity_id": "CSE-006",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-09",
+    "entity_id": "CSE-006",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-10",
+    "entity_id": "CSE-006",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-11",
+    "entity_id": "CSE-006",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-12",
+    "entity_id": "CSE-006",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-13",
+    "entity_id": "CSE-006",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-14",
+    "entity_id": "CSE-006",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-15",
+    "entity_id": "CSE-006",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-16",
+    "entity_id": "CSE-006",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-22T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-17",
+    "entity_id": "CSE-006",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-18",
+    "entity_id": "CSE-006",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-006-19",
+    "entity_id": "CSE-006",
+    "asset_type": "SCADA",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-01",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-08-06T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-02",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-08-22T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-03",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-08-12T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-04",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-08-05T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-05",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-06",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-07",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-08",
+    "entity_id": "CSE-007",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-09",
+    "entity_id": "CSE-007",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-10",
+    "entity_id": "CSE-007",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-11",
+    "entity_id": "CSE-007",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-12",
+    "entity_id": "CSE-007",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-13",
+    "entity_id": "CSE-007",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-14",
+    "entity_id": "CSE-007",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-15",
+    "entity_id": "CSE-007",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-16",
+    "entity_id": "CSE-007",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-17",
+    "entity_id": "CSE-007",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-18",
+    "entity_id": "CSE-007",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-19",
+    "entity_id": "CSE-007",
+    "asset_type": "Core Switch",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-20",
+    "entity_id": "CSE-007",
+    "asset_type": "Core Switch",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-21",
+    "entity_id": "CSE-007",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-007-22",
+    "entity_id": "CSE-007",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-01",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-02",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-03",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-04",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-05",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-06",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-07",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-08",
+    "entity_id": "CSE-008",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-09",
+    "entity_id": "CSE-008",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-10",
+    "entity_id": "CSE-008",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-11",
+    "entity_id": "CSE-008",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-12",
+    "entity_id": "CSE-008",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-13",
+    "entity_id": "CSE-008",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-14",
+    "entity_id": "CSE-008",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-15",
+    "entity_id": "CSE-008",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-20T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-16",
+    "entity_id": "CSE-008",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-17",
+    "entity_id": "CSE-008",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-18",
+    "entity_id": "CSE-008",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-008-19",
+    "entity_id": "CSE-008",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-01",
+    "entity_id": "CSE-009",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-02",
+    "entity_id": "CSE-009",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-03",
+    "entity_id": "CSE-009",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-04",
+    "entity_id": "CSE-009",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-05",
+    "entity_id": "CSE-009",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-06",
+    "entity_id": "CSE-009",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-07",
+    "entity_id": "CSE-009",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-08",
+    "entity_id": "CSE-009",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-09",
+    "entity_id": "CSE-009",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-10",
+    "entity_id": "CSE-009",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-11",
+    "entity_id": "CSE-009",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-12",
+    "entity_id": "CSE-009",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-13",
+    "entity_id": "CSE-009",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-22T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-14",
+    "entity_id": "CSE-009",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-15",
+    "entity_id": "CSE-009",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-16",
+    "entity_id": "CSE-009",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-17",
+    "entity_id": "CSE-009",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-18",
+    "entity_id": "CSE-009",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-19",
+    "entity_id": "CSE-009",
+    "asset_type": "Domain Controller",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-009-20",
+    "entity_id": "CSE-009",
+    "asset_type": "DB Server",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-01",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-02",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-03",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-04",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-05",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-06",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-07",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-08",
+    "entity_id": "CSE-010",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-09",
+    "entity_id": "CSE-010",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-10",
+    "entity_id": "CSE-010",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-11",
+    "entity_id": "CSE-010",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-12",
+    "entity_id": "CSE-010",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-13",
+    "entity_id": "CSE-010",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-14",
+    "entity_id": "CSE-010",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-15",
+    "entity_id": "CSE-010",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-16",
+    "entity_id": "CSE-010",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-17",
+    "entity_id": "CSE-010",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-010-18",
+    "entity_id": "CSE-010",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-01",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-02",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-03",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-04",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-05",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-06",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-07",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-08",
+    "entity_id": "CSE-011",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-09",
+    "entity_id": "CSE-011",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-10",
+    "entity_id": "CSE-011",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-11",
+    "entity_id": "CSE-011",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-12",
+    "entity_id": "CSE-011",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-13",
+    "entity_id": "CSE-011",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-14",
+    "entity_id": "CSE-011",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-15",
+    "entity_id": "CSE-011",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-16",
+    "entity_id": "CSE-011",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-17",
+    "entity_id": "CSE-011",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-18",
+    "entity_id": "CSE-011",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-23T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-19",
+    "entity_id": "CSE-011",
+    "asset_type": "Domain Controller",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-011-20",
+    "entity_id": "CSE-011",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-01",
+    "entity_id": "CSE-012",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-02",
+    "entity_id": "CSE-012",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-03",
+    "entity_id": "CSE-012",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-04",
+    "entity_id": "CSE-012",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-05",
+    "entity_id": "CSE-012",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-06",
+    "entity_id": "CSE-012",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-07",
+    "entity_id": "CSE-012",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-08",
+    "entity_id": "CSE-012",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-09",
+    "entity_id": "CSE-012",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-10",
+    "entity_id": "CSE-012",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-11",
+    "entity_id": "CSE-012",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-12",
+    "entity_id": "CSE-012",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-13",
+    "entity_id": "CSE-012",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-14",
+    "entity_id": "CSE-012",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-15",
+    "entity_id": "CSE-012",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-16",
+    "entity_id": "CSE-012",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-17",
+    "entity_id": "CSE-012",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-18",
+    "entity_id": "CSE-012",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-19",
+    "entity_id": "CSE-012",
+    "asset_type": "Core Switch",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-20",
+    "entity_id": "CSE-012",
+    "asset_type": "Core Switch",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-012-21",
+    "entity_id": "CSE-012",
+    "asset_type": "DB Server",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-01",
+    "entity_id": "CSE-013",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-02",
+    "entity_id": "CSE-013",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-03",
+    "entity_id": "CSE-013",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-04",
+    "entity_id": "CSE-013",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-05",
+    "entity_id": "CSE-013",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-06",
+    "entity_id": "CSE-013",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-07",
+    "entity_id": "CSE-013",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-08",
+    "entity_id": "CSE-013",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-09",
+    "entity_id": "CSE-013",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-10",
+    "entity_id": "CSE-013",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-11",
+    "entity_id": "CSE-013",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-12",
+    "entity_id": "CSE-013",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-13",
+    "entity_id": "CSE-013",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-14",
+    "entity_id": "CSE-013",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-15",
+    "entity_id": "CSE-013",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-16",
+    "entity_id": "CSE-013",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-17",
+    "entity_id": "CSE-013",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-18",
+    "entity_id": "CSE-013",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-19",
+    "entity_id": "CSE-013",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-013-20",
+    "entity_id": "CSE-013",
+    "asset_type": "Domain Controller",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-01",
+    "entity_id": "CSE-014",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-02",
+    "entity_id": "CSE-014",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-03",
+    "entity_id": "CSE-014",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-04",
+    "entity_id": "CSE-014",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-05",
+    "entity_id": "CSE-014",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-06",
+    "entity_id": "CSE-014",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-07",
+    "entity_id": "CSE-014",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-08",
+    "entity_id": "CSE-014",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-09",
+    "entity_id": "CSE-014",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-10",
+    "entity_id": "CSE-014",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-11",
+    "entity_id": "CSE-014",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-12",
+    "entity_id": "CSE-014",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-13",
+    "entity_id": "CSE-014",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-14",
+    "entity_id": "CSE-014",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-15",
+    "entity_id": "CSE-014",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-16",
+    "entity_id": "CSE-014",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-17",
+    "entity_id": "CSE-014",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-18",
+    "entity_id": "CSE-014",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-014-19",
+    "entity_id": "CSE-014",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-01",
+    "entity_id": "CSE-015",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-02",
+    "entity_id": "CSE-015",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-03",
+    "entity_id": "CSE-015",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-04",
+    "entity_id": "CSE-015",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-05",
+    "entity_id": "CSE-015",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-06",
+    "entity_id": "CSE-015",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-07",
+    "entity_id": "CSE-015",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-08",
+    "entity_id": "CSE-015",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-09",
+    "entity_id": "CSE-015",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-10",
+    "entity_id": "CSE-015",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-11",
+    "entity_id": "CSE-015",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-12",
+    "entity_id": "CSE-015",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-13",
+    "entity_id": "CSE-015",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-20T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-14",
+    "entity_id": "CSE-015",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-15",
+    "entity_id": "CSE-015",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-16",
+    "entity_id": "CSE-015",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-17",
+    "entity_id": "CSE-015",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-18",
+    "entity_id": "CSE-015",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-19",
+    "entity_id": "CSE-015",
+    "asset_type": "DB Server",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-20",
+    "entity_id": "CSE-015",
+    "asset_type": "Core Switch",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-015-21",
+    "entity_id": "CSE-015",
+    "asset_type": "SCADA",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-01",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-02",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-03",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-04",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-05",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-06",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-07",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-08",
+    "entity_id": "CSE-016",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-09",
+    "entity_id": "CSE-016",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-10",
+    "entity_id": "CSE-016",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-11",
+    "entity_id": "CSE-016",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T05:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-12",
+    "entity_id": "CSE-016",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-13",
+    "entity_id": "CSE-016",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-14",
+    "entity_id": "CSE-016",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-19T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-15",
+    "entity_id": "CSE-016",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-16",
+    "entity_id": "CSE-016",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-17",
+    "entity_id": "CSE-016",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-18",
+    "entity_id": "CSE-016",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-19",
+    "entity_id": "CSE-016",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-20",
+    "entity_id": "CSE-016",
+    "asset_type": "DB Server",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-016-21",
+    "entity_id": "CSE-016",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-01",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-02",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-03",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-04",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-05",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T19:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-06",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-07",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-08",
+    "entity_id": "CSE-017",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-09",
+    "entity_id": "CSE-017",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-10",
+    "entity_id": "CSE-017",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-11",
+    "entity_id": "CSE-017",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-12",
+    "entity_id": "CSE-017",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-13",
+    "entity_id": "CSE-017",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-14",
+    "entity_id": "CSE-017",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-15",
+    "entity_id": "CSE-017",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-16",
+    "entity_id": "CSE-017",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-17",
+    "entity_id": "CSE-017",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-18",
+    "entity_id": "CSE-017",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-017-19",
+    "entity_id": "CSE-017",
+    "asset_type": "Domain Controller",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-01",
+    "entity_id": "CSE-018",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-02",
+    "entity_id": "CSE-018",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-03",
+    "entity_id": "CSE-018",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-04",
+    "entity_id": "CSE-018",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-05",
+    "entity_id": "CSE-018",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-06",
+    "entity_id": "CSE-018",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-07",
+    "entity_id": "CSE-018",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-23T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-08",
+    "entity_id": "CSE-018",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-09",
+    "entity_id": "CSE-018",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-10",
+    "entity_id": "CSE-018",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-11",
+    "entity_id": "CSE-018",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-12",
+    "entity_id": "CSE-018",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-23T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-13",
+    "entity_id": "CSE-018",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-14",
+    "entity_id": "CSE-018",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-15",
+    "entity_id": "CSE-018",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T06:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-16",
+    "entity_id": "CSE-018",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-17",
+    "entity_id": "CSE-018",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-018-18",
+    "entity_id": "CSE-018",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-01",
+    "entity_id": "CSE-019",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T11:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-02",
+    "entity_id": "CSE-019",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-03",
+    "entity_id": "CSE-019",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-04",
+    "entity_id": "CSE-019",
+    "asset_type": "Web App",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T22:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-05",
+    "entity_id": "CSE-019",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-06",
+    "entity_id": "CSE-019",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-07",
+    "entity_id": "CSE-019",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-08",
+    "entity_id": "CSE-019",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-09",
+    "entity_id": "CSE-019",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-10",
+    "entity_id": "CSE-019",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-23T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-11",
+    "entity_id": "CSE-019",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T02:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-12",
+    "entity_id": "CSE-019",
+    "asset_type": "Domain Controller",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-13",
+    "entity_id": "CSE-019",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-14",
+    "entity_id": "CSE-019",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-15",
+    "entity_id": "CSE-019",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T10:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-16",
+    "entity_id": "CSE-019",
+    "asset_type": "Web App",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-17",
+    "entity_id": "CSE-019",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-18",
+    "entity_id": "CSE-019",
+    "asset_type": "DB Server",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-19",
+    "entity_id": "CSE-019",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-019-20",
+    "entity_id": "CSE-019",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-01",
+    "entity_id": "CSE-020",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-02",
+    "entity_id": "CSE-020",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T01:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-03",
+    "entity_id": "CSE-020",
+    "asset_type": "SCADA",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T09:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-04",
+    "entity_id": "CSE-020",
+    "asset_type": "Domain Controller",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-05",
+    "entity_id": "CSE-020",
+    "asset_type": "DB Server",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-06",
+    "entity_id": "CSE-020",
+    "asset_type": "Core Switch",
+    "criticality": "CRITICAL",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T23:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-07",
+    "entity_id": "CSE-020",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-08",
+    "entity_id": "CSE-020",
+    "asset_type": "DB Server",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T03:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-09",
+    "entity_id": "CSE-020",
+    "asset_type": "Web App",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-10",
+    "entity_id": "CSE-020",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T20:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-11",
+    "entity_id": "CSE-020",
+    "asset_type": "SCADA",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-12",
+    "entity_id": "CSE-020",
+    "asset_type": "Core Switch",
+    "criticality": "HIGH",
+    "expected_telemetry": "Syslog, EDR",
+    "last_telemetry": "2026-09-27T04:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-13",
+    "entity_id": "CSE-020",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T21:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-14",
+    "entity_id": "CSE-020",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-15",
+    "entity_id": "CSE-020",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-23T12:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-16",
+    "entity_id": "CSE-020",
+    "asset_type": "Core Switch",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T08:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-17",
+    "entity_id": "CSE-020",
+    "asset_type": "SCADA",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-26T18:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-18",
+    "entity_id": "CSE-020",
+    "asset_type": "Domain Controller",
+    "criticality": "MEDIUM",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T00:00:00Z"
+  },
+  {
+    "asset_id": "AST-020-19",
+    "entity_id": "CSE-020",
+    "asset_type": "Web App",
+    "criticality": "LOW",
+    "expected_telemetry": "Syslog",
+    "last_telemetry": "2026-09-27T07:00:00Z"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "name": "sat-sa-backend",
+  "version": "1.0.0",
+  "description": "SAT-SA Node.js/Express Application Backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "generate": "tsx src/generate_dataset.ts",
+    "seed": "tsx src/seed.ts",
+    "test": "tsx --test test/data_layer.test.ts test/api.test.ts test/generation.test.ts test/ingestion.test.ts test/external_dataset.test.ts test/validation.test.ts test/assessment_isolation.test.ts",
+    "test:api": "tsx --test test/api.test.ts",
+    "test:e2e": "tsx --test test/e2e.test.ts",
+    "test:all": "tsx --test test/data_layer.test.ts test/api.test.ts test/generation.test.ts test/ingestion.test.ts && tsx --test test/e2e.test.ts",
+    "test:data": "tsx --test test/data_layer.test.ts",
+    "test:ingestion": "tsx --test test/ingestion.test.ts",
+    "check-health": "node src/healthcheck.js"
+  },
+  "keywords": [
+    "soc",
+    "supervisory-analytics",
+    "cybersecurity",
+    "sih"
+  ],
+  "author": "SAT-SA Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
